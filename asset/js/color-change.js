@@ -1,4 +1,4 @@
-var array = ["#C21010", "#E64848", "#FFFDE3", "#CFE8A9", "#FF8A08", "#FFC100"]; // ["F", "A", "B", "C", "D", "E"]
+var array = ["#C21010", "#E64848", "#B8FFF9", "#CFE8A9", "#FF8A08", "#FFC100"]; // ["F", "A", "B", "C", "D", "E"]
 
 var myInterval = null;
 
