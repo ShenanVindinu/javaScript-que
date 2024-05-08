@@ -1,4 +1,4 @@
-var array = ["A", "B", "C", "D", "E", "F"]; // ["F", "A", "B", "C", "D", "E"]
+var array = ["#C21010", "#E64848", "#FFFDE3", "#CFE8A9", "#FF8A08", "#FFC100"]; // ["F", "A", "B", "C", "D", "E"]
 
 var myInterval = null;
 
@@ -8,12 +8,12 @@ function replaceValues() {
     array.unshift(lastValue);
 
     // update the elements
-    $("#value1").text(array[0]);
-    $("#value2").text(array[1]);
-    $("#value3").text(array[2]);
-    $("#value4").text(array[3]);
-    $("#value5").text(array[4]);
-    $("#value6").text(array[5]);
+    $("#value1").css({'backgroundColor': array[0]+''});
+    $("#value2").css({'backgroundColor': array[1]+''});
+    $("#value3").css({'backgroundColor': array[2]+''});
+    $("#value4").css({'backgroundColor': array[3]+''});
+    $("#value5").css({'backgroundColor': array[4]+''});
+    $("#value6").css({'backgroundColor': array[5]+''});
 }
 
 $("#start_btn").on("click", () => {
